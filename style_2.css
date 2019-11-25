@@ -1,0 +1,54 @@
+article {
+    width: 900px;   
+    margin: 0 auto;
+    border: 1px solid #afa7a7;
+    overflow: hidden;
+}
+
+.title::after {
+    content: "";
+    display: block;
+    clear: left;  
+}
+
+.title {
+    float: left;
+    box-sizing: border-box;
+    width: 220px;
+    margin-right: 20px;
+    margin-top: 0;   
+    margin-bottom: -3000px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 3000px;
+    font-size: 2em;
+    text-align: center;
+    color: #fff;
+    background: #0a96f3;
+}
+
+.section-group {
+    overflow: auto;
+    height: 720px;   
+}
+
+.item {
+    margin-right: .5em;
+    font-weight: 700;   
+}
+
+.content {
+    margin-right: 3em;
+}
+
+.wrap-item {
+    display: block;
+    margin-right: 0;
+    margin-top: 1em;
+}
+
+.wrap-content {
+    display: block;
+    margin-right: 0;
+}
