@@ -1,8 +1,9 @@
 article {
+    overflow: hidden;
     width: 900px;   
     margin: 0 auto;
     border: 1px solid #afa7a7;
-    overflow: hidden;
+    
 }
 
 .title::after {
@@ -15,13 +16,8 @@ article {
     float: left;
     box-sizing: border-box;
     width: 220px;
-    margin-right: 20px;
-    margin-top: 0;   
-    margin-bottom: -3000px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 40px;
-    padding-bottom: 3000px;
+    margin: 0 20px -3000px 0;
+    padding: 40px 40px 3000px;
     font-size: 2em;
     text-align: center;
     color: #fff;
